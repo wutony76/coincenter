@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- meun_top -->
+        <LinearLayout
+            android:id="@+id/ly_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:minHeight="50dp"
+            >
+        </LinearLayout>
+
+
+        <!-- title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="15dp"
+
+            android:gravity="center"
+            android:text="@string/reinvest_log"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_view_DDE2EA"
+                android:orientation="vertical"
+                android:paddingTop="30dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/tv_reinvest_c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="17dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+
+                    android:gravity="left"
+                    android:text="@string/app_loading"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                />
+                <TextView
+                    android:id="@+id/tv_reinvest_c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="17dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+
+                    android:gravity="left"
+                    android:text="@string/app_loading"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_reinvest_c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="17dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+
+                    android:gravity="left"
+                    android:text="@string/app_loading"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_reinvest_c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="17dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+
+                    android:gravity="left"
+                    android:text="@string/app_loading"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    />
+
+
+                <Button
+                    android:id="@+id/btn_reinvestlog_ok"
+                    android:background="@drawable/btn_round_325551"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+
+                    android:text="@string/bswitch_btn_ok"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>
+

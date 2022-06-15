@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ly_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:minHeight="45dp"
+            >
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/ed_chpass_phone"
+
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.3"
+
+            android:ems="10"
+            android:hint="@string/register_ed_phone"
+
+            android:inputType="textPersonName"
+            android:textColorHint="#717171"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_chpass_checkphone"
+            android:background="@drawable/btn_round_check"
+
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="0.2"
+
+            android:lineSpacingMultiplier="1.5"
+            android:text="@string/register_btn_checkphone"
+            android:textColor="@color/btn_check_word"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/ed_chpass_phone_checkcode"
+
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.3"
+
+            android:ems="10"
+            android:hint="@string/register_ed_phonecheckcode"
+
+            android:inputType="textPersonName"
+            android:textColorHint="#717171"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/ed_chpass_password"
+
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight="0.3"
+
+            android:ems="10"
+            android:hint="@string/change_password"
+
+            android:inputType="textPassword"
+            android:textColorHint="#717171"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/ed_chpass_password2"
+
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight="0.3"
+
+            android:ems="10"
+            android:hint="@string/change_password2"
+
+            android:inputType="textPassword"
+            android:textColorHint="#717171"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_chpass_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+
+            android:layout_marginRight="25dp"
+            android:layout_weight="0.25"
+            android:background="@drawable/btn_round"
+
+
+            android:lineSpacingMultiplier="1.5"
+            android:text="@string/change_password_ok"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+</LinearLayout>

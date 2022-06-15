@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2985" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/btn_round.xml" value="0.1935" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/btn_round_2d645a.xml" value="0.2135" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/btn_round_325551.xml" value="0.196" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/btn_round_50.xml" value="0.1" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/btn_round_56AF73.xml" value="0.196" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/btn_round_FF.xml" value="0.289" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/btn_round_border.xml" value="0.289" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/btn_round_check.xml" value="0.2065" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/btn_round_copy_50.xml" value="0.289" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/btn_round_d6d6d6.xml" value="0.2" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/btn_round_ff.xml" value="0.301" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/ed_under_line.xml" value="0.1935" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/hr_dash.xml" value="0.17" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/hr_line.xml" value="0.5" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2985" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/drawable/marquee.xml" value="0.1" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/activity_main.xml" value="0.2296875" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/activity_main2.xml" value="0.13019250253292808" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/app_bar_main.xml" value="0.13019250253292808" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/bswitch.xml" value="0.1490036231884058" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/bswitch_log.xml" value="0.15670289855072464" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/changepass.xml" value="0.1408514492753623" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/content_main.xml" value="0.2296875" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/elist.xml" value="0.25" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/forgetpass.xml" value="0.31929347826086957" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/fragment_home.xml" value="0.17617753623188406" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/fragment_top_banner.xml" value="0.1828125" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/home.xml" value="0.19324853228962818" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/item_elist_rd.xml" value="0.2578125" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/item_mission_rd.xml" value="0.21770833333333334" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/item_mission_success_rd.xml" value="0.19947916666666668" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/item_report_my_rd.xml" value="0.26875" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/item_report_team_rd.xml" value="0.26875" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/item_space_10_rd.xml" value="0.151268115942029" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/item_wallet_rd.xml" value="0.29635416666666664" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/login.xml" value="0.31476449275362317" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/main.xml" value="0.1956521739130435" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/member.xml" value="0.20989583333333334" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/menu_bottom.xml" value="0.22239583333333332" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/menu_top.xml" value="0.25" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/mission.xml" value="0.1546875" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/nav_header_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/recharge.xml" value="0.2" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/recharge_rule.xml" value="0.21101303068516183" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/register.xml" value="0.2453125" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/reinvest.xml" value="0.15670289855072464" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/reinvest_log.xml" value="0.12364130434782608" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/report_my.xml" value="0.25" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/report_team.xml" value="0.25" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/share.xml" value="0.24375" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/withdraw_log.xml" value="0.13949275362318841" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/layout/withdrawal.xml" value="0.15670289855072464" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1265" />
+        <entry key="..\:/Android_proj/coincenter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1265" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

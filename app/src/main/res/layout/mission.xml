@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ly_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:minHeight="45dp"
+            >
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/bg_view_DDE2EA"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:paddingTop="70dp"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <!-- push count -->
+                    <LinearLayout
+                        android:background="@drawable/btn_round_border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:letterSpacing="0.1"
+                            android:text="@string/mission_push"
+                            android:textColor="@color/black_100"
+                            android:textSize="35dp"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:id="@+id/tv_push_count"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:letterSpacing="0.1"
+                            android:text="0"
+                            android:textColor="@color/black_100"
+                            android:textSize="35dp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                    <!-- invit count -->
+                    <LinearLayout
+                        android:background="@drawable/btn_round_ff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+
+                            android:gravity="center"
+                            android:letterSpacing="0.1"
+                            android:text="@string/mission_invite"
+                            android:textColor="@color/black_100"
+                            android:textSize="35dp"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:id="@+id/tv_invite_count"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+
+                            android:gravity="center"
+                            android:letterSpacing="0.1"
+                            android:text="0"
+                            android:textColor="@color/black_100"
+                            android:textSize="35dp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- start time -->
+                <TextView
+                    android:id="@+id/tv_start_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+
+                    android:text="@string/app_loading"
+                    android:textColor="@color/teal_2d645a"
+                    android:textSize="25dp"
+                    />
+
+                <!-- end time -->
+                <TextView
+                    android:id="@+id/tv_end_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+
+                    android:text="@string/app_loading"
+                    android:textColor="@color/teal_2d645a"
+                    android:textSize="25dp"
+                    />
+
+                <!-- open award -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+
+                    android:text="@string/mission_open_award"
+                    android:textColor="@color/teal_2d645a"
+                    android:textSize="25dp"
+                    />
+
+                <!-- Award -->
+                <TextView
+                    android:id="@+id/tv_now_award"
+                    android:background="@drawable/btn_round_2d645a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+
+                    android:gravity="center"
+                    android:textColor="@color/teal_2d645a"
+                    android:text="@string/mission_award_no"
+                    android:textSize="23dp"
+                    />
+
+                <!-- content -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+
+                    android:text="@string/mission_title"
+                    android:textColor="@color/teal_2d645a"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:paddingLeft="60dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginBottom="30dp"
+
+                    android:text="@string/mission_content"
+                    android:textColor="@color/teal_2d645a"
+                    android:textSize="18dp"
+                    />
+
+
+
+                <!-- mission list -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+
+                    android:gravity="center"
+                    android:letterSpacing="0.2"
+                    android:text="@string/mission_award_list"
+                    android:textColor="@color/teal_2d645a"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/ly_mission_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    >
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <!-- bottom btn grop -->
+        <LinearLayout
+            android:id="@+id/ly_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="90dp"
+
+            android:layout_weight="0.1"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+

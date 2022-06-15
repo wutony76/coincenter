@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_bottom_group"
+    android:textColor="@color/white">
+
+    <LinearLayout
+        android:id="@+id/btn_bottom_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/b_home"
+            app:srcCompat="@drawable/b_home" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="@string/bottom_home"
+            android:textSize="15dp"
+            android:textColor="@color/teal_2d645a"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_bottom_mission"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/b_mission"
+            app:srcCompat="@drawable/b_mission" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="@string/bottom_mission"
+            android:textSize="15dp"
+            android:textColor="@color/teal_2d645a"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_bottom_share"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/b_share"
+
+            app:srcCompat="@drawable/b_share" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:gravity="center"
+            android:text="@string/bottom_share"
+            android:textSize="15dp"
+            android:textColor="@color/teal_2d645a"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_bottom_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/b_btn"
+            app:srcCompat="@drawable/b_btn" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:gravity="center"
+            android:text="@string/bottom_member"
+            android:textSize="15dp"
+            android:textColor="@color/teal_2d645a"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ly_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:minHeight="45dp"
+            >
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:paddingTop="70dp"
+                >
+
+
+                <!-- share_friend -->
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
+
+
+                    android:gravity="center"
+                    android:text="@string/share_title"
+                    android:letterSpacing="0.2"
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="@string/share_title2"
+                    android:textSize="17dp"
+                    android:textColor="@color/teal_100"
+                    android:textStyle="bold"
+                    />
+
+                <ImageView
+                    android:id="@+id/img_share_QR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    app:srcCompat="@drawable/loading"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:paddingTop="50dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/share_freind"
+                    app:srcCompat="@drawable/share_freind"
+                />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="@string/share_content1"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="@string/share_content2"
+                    android:textColor="@color/black_100"
+                    android:textSize="10dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+
+                    android:paddingLeft="10dp"
+                    android:paddingTop="30dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="50dp"
+
+                    android:layout_marginBottom="30dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_share_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:background="@color/white_100"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="7dp"
+                        android:paddingBottom="7dp"
+
+                        android:singleLine="true"
+                        android:text="@string/app_loading"
+                        android:textColor="@color/black_100"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/btn_share_copy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_round_50"
+
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+
+                        android:text="@string/share_copy"
+                        android:textColor="@color/white"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <!-- bottom btn grop -->
+        <LinearLayout
+            android:id="@+id/ly_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="90dp"
+
+            android:layout_weight="0.1"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/bg_view_DDE2EA"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ly_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:minHeight="45dp"
+            >
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <LinearLayout
+                        android:background="@drawable/btn_round_ff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:letterSpacing="0.1"
+                            android:text="@string/elist_all"
+                            android:textColor="@color/black_100"
+                            android:textSize="23dp"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:id="@+id/tv_elist_all"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:letterSpacing="0.1"
+                            android:text="0"
+                            android:textColor="@color/black_100"
+                            android:textSize="15dp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <!-- wallet 1. -->
+                    <LinearLayout
+                        android:background="@drawable/btn_round_ff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+
+                            android:gravity="center"
+                            android:letterSpacing="0.1"
+                            android:text="@string/elist_basic"
+                            android:textColor="@color/black_100"
+                            android:textSize="23dp"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:id="@+id/tv_elist_basic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:layout_weight="1"
+
+
+                            android:gravity="center"
+                            android:letterSpacing="0.1"
+                            android:text="0"
+                            android:textColor="@color/black_100"
+                            android:textSize="15dp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <!-- wallet 2. -->
+                    <LinearLayout
+                        android:background="@drawable/btn_round_ff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:letterSpacing="0.1"
+                            android:text="@string/elist_promotion"
+                            android:textColor="@color/black_100"
+                            android:textSize="23dp"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:id="@+id/tv_elist_promotion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:letterSpacing="0.1"
+                            android:text="0"
+                            android:textColor="@color/black_100"
+                            android:textSize="15dp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+
+                    android:gravity="center"
+                    android:text="@string/elist_title"
+                    android:textColor="@color/black_100"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@drawable/hr_line"
+                    android:layerType="software"
+                    android:textColor="@color/black_100"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:background="@color/bg_view_DDE2EA"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+
+                        android:textStyle="bold"
+                        android:gravity="left"
+                        android:text="@string/elist_date"
+                        android:textColor="@color/black_100"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="@string/elist_type"
+                        android:textColor="@color/black_100"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="@string/elist_coin"
+                        android:textColor="@color/black_100"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="@string/elist_change_coin"
+                        android:textColor="@color/black_100"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+
+                        android:textStyle="bold"
+                        android:gravity="right"
+                        android:text="@string/elist_mask"
+                        android:textColor="@color/black_100"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@drawable/hr_line"
+                    android:layerType="software"
+                    android:textColor="@color/black_100"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+                <LinearLayout
+                    android:id="@+id/ly_elist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    >
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_elist_load"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+
+                    android:layout_weight="1"
+                    android:background="@color/teal_316565"
+
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+
+                    android:text="@string/elist_btn_load_more"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>
+

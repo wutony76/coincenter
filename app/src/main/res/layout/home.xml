@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ly_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            android:minHeight="45dp"
+            >
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <!-- home logo -->
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/logo"
+                    app:srcCompat="@drawable/logo"
+                    android:layout_marginTop="70dp"
+                    />
+
+
+                <!-- home coin total -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:paddingTop="15dp"
+
+
+                        android:textColor="@color/btn_check_word"
+                        android:textSize="15dp"
+                        android:text="@string/home_coin_title"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_total"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:text="0.00"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:paddingTop="15dp"
+
+                        android:textSize="15dp"
+                        android:text="@string/home_coin_USD"
+                        android:textColor="@color/btn_check_word"
+
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        />
+                </LinearLayout>
+
+
+                <!-- marquee 跑馬燈 -->
+                <TextView
+                    android:id="@+id/tv_marquee"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/marquee"
+                    android:layout_marginBottom="40dp"
+
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="20dp"
+
+                    android:textSize="20dp"
+                    android:text="@string/app_default_loading"
+                    android:singleLine="true"
+                    android:textColor="@color/marquee_yellow"
+                    />
+
+
+                <!-- home center btn group 1. -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/c_btn_recharge"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/c_btn_recharge"
+                        app:srcCompat="@drawable/c_btn_share" />
+
+                    <ImageView
+                        android:id="@+id/c_btn_reinvest"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/c_btn_reinvest"
+                        app:srcCompat="@drawable/c_btn_share" />
+
+                    <ImageView
+                        android:id="@+id/c_btn_withdrawal"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/c_btn_withdrawal"
+                        app:srcCompat="@drawable/c_btn_share" />
+                </LinearLayout>
+
+
+                <!-- home center btn group 2. -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+
+                    android:layout_marginBottom="40dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/c_btn_share"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/c_btn_share"
+                        app:srcCompat="@drawable/c_btn_share" />
+
+                    <ImageView
+                        android:id="@+id/c_btn_mission"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/c_btn_mission"
+                        app:srcCompat="@drawable/c_btn_share" />
+
+                    <ImageView
+                        android:id="@+id/c_btn_logout"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/c_btn_logout"
+                        app:srcCompat="@drawable/c_btn_share" />
+                </LinearLayout>
+
+
+                <!-- wallet list -->
+                <LinearLayout
+                    android:id="@+id/ly_wallet_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    >
+
+                    <!-- 會員資訊 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_home_mem_lvstr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="20dp"
+                            android:gravity="center"
+
+                            android:letterSpacing="0.3"
+                            android:text="@string/app_loading"
+
+                            android:textSize="32dp"
+                            android:textColor="@color/btn_check_word"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_home_mem_lv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+
+                            android:text="@string/app_loading"
+
+                            android:textSize="15dp"
+                            android:textColor="@color/btn_check_word"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_home_mem_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+
+                            android:text="@string/app_loading"
+
+                            android:textSize="15dp"
+                            android:textColor="@color/btn_check_word"
+                            />
+                    </LinearLayout>
+                    <!-- 會員資訊 -->
+
+
+                    <!-- 每日領取 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="100dp"
+
+                        android:paddingRight="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        >
+
+                        <Button
+                            android:id="@+id/btn_day_get_coin"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="30dp"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_round_50"
+
+                            android:lineSpacingMultiplier="1.5"
+                            android:text="@string/home_day_get_coin"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/tv_real_recharge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+                            android:text="@string/app_loading"
+                            android:gravity="center"
+                            android:textColor="@color/btn_check_word"
+                            android:textSize="18dp"
+                            />
+
+                    </LinearLayout>
+                    <!-- 每日領取 end. -->
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/logo" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/logo" />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <!-- bottom btn grop -->
+        <LinearLayout
+            android:id="@+id/ly_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="90dp"
+
+            android:layout_weight="0.1"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
